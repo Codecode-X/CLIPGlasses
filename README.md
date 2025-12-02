@@ -1,7 +1,7 @@
 # Not Just What’s There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning
 
 🎉 This paper has been accepted by AAAI 2026!
-The source code is currently being organized and is expected to be fully prepared and uploaded in January. Thank you for your interest and patience!
+The source code is currently being organized and is expected to be **fully prepared and uploaded in January**. Thank you for your interest and patience!
 
 ## 👀 CLIPGlasses
 
