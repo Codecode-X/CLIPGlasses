@@ -1,10 +1,7 @@
 # Not Just What’s There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning
 
-To comply with the double-blind review policy, this GitHub repository is temporarily private while our paper is under review for **AAAI 2026**. It will be made publicly available after the review process is completed. 🐱‍👤
-
-*It will be made publicly accessible after the review process is completed.*😊
-
-![image-20250804202149663](md_images/README/image-20250804202149663.png)
+🎉 This paper has been accepted by AAAI 2026!
+The source code is currently being organized and is expected to be fully prepared and uploaded in January. Thank you for your interest and patience!
 
 ## 👀 CLIPGlasses
 
@@ -59,7 +56,3 @@ Navigate to the experiment folder and run:
 cd Glasses\exp\exp5_glasses
 python3 Glasses.py
 ```
-
-
-
-# CLIPGlasses
