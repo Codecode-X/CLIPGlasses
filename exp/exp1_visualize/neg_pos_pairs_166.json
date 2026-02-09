@@ -1,0 +1,1000 @@
+{
+  "negation_pairs": [
+    {
+      "negative": "A bookshelf without any novels",
+      "positive": "A bookshelf with several novels",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> with several"]
+    },
+    {
+      "negative": "The fridge is devoid of vegetables",
+      "positive": "The fridge contains fresh vegetables",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> contains"]
+    },
+    {
+      "negative": "An empty birdcage hanging on the porch",
+      "positive": "A birdcage housing a parrot hanging on the porch",
+      "type": "negation_pair",
+      "key_diff": ["empty <-> housing a parrot"]
+    },
+    {
+      "negative": "The garden lacking blooming flowers",
+      "positive": "The garden full of blooming flowers",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> full of"]
+    },
+    {
+      "negative": "A computer screen showing no windows",
+      "positive": "A computer screen displaying multiple windows",
+      "type": "negation_pair",
+      "key_diff": ["showing no <-> displaying multiple"]
+    },
+    {
+      "negative": "The parking lot absent of vehicles",
+      "positive": "The parking lot filled with vehicles",
+      "type": "negation_pair",
+      "key_diff": ["absent of <-> filled with"]
+    },
+    {
+      "negative": "A pizza missing its cheese topping",
+      "positive": "A pizza covered in melted cheese topping",
+      "type": "negation_pair",
+      "key_diff": ["missing its <-> covered in"]
+    },
+    {
+      "negative": "The classroom devoid of students",
+      "positive": "The classroom bustling with students",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> bustling with"]
+    },
+    {
+      "negative": "A wallet containing no credit cards",
+      "positive": "A wallet stuffed with credit cards",
+      "type": "negation_pair",
+      "key_diff": ["containing no <-> stuffed with"]
+    },
+    {
+      "negative": "The tree branch bearing no fruit",
+      "positive": "The tree branch heavy with ripe fruit",
+      "type": "negation_pair",
+      "key_diff": ["bearing no <-> heavy with"]
+    },
+    {
+      "negative": "A phone without any notifications",
+      "positive": "A phone buzzing with notifications",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> buzzing with"]
+    },
+    {
+      "negative": "The museum exhibit lacking visitors",
+      "positive": "The museum exhibit crowded with visitors",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> crowded with"]
+    },
+    {
+      "negative": "A sandwich minus the tomato slices",
+      "positive": "A sandwich including fresh tomato slices",
+      "type": "negation_pair",
+      "key_diff": ["minus <-> including"]
+    },
+    {
+      "negative": "The highway clear of traffic",
+      "positive": "The highway congested with traffic",
+      "type": "negation_pair",
+      "key_diff": ["clear of <-> congested with"]
+    },
+    {
+      "negative": "A toolbox void of hammers",
+      "positive": "A toolbox containing various hammers",
+      "type": "negation_pair",
+      "key_diff": ["void of <-> containing"]
+    },
+    {
+      "negative": "The nest uninhabited by birds",
+      "positive": "The nest occupied by chirping birds",
+      "type": "negation_pair",
+      "key_diff": ["uninhabited by <-> occupied by"]
+    },
+    {
+      "negative": "A glass emptied of water",
+      "positive": "A glass filled to the brim with water",
+      "type": "negation_pair",
+      "key_diff": ["emptied of <-> filled with"]
+    },
+    {
+      "negative": "The bookshelf bereft of dictionaries",
+      "positive": "The bookshelf stocked with dictionaries",
+      "type": "negation_pair",
+      "key_diff": ["bereft of <-> stocked with"]
+    },
+    {
+      "negative": "A shirt missing its buttons",
+      "positive": "A shirt adorned with shiny buttons",
+      "type": "negation_pair",
+      "key_diff": ["missing its <-> adorned with"]
+    },
+    {
+      "negative": "The playground absent of children",
+      "positive": "The playground alive with children's laughter",
+      "type": "negation_pair",
+      "key_diff": ["absent of <-> alive with"]
+    },
+    {
+      "negative": "A pizza lacking pepperoni slices",
+      "positive": "A pizza topped with pepperoni slices",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> topped with"]
+    },
+    {
+      "negative": "The concert hall silent without music",
+      "positive": "The concert hall resonating with beautiful music",
+      "type": "negation_pair",
+      "key_diff": ["silent without <-> resonating with"]
+    },
+    {
+      "negative": "A drawer free of socks",
+      "positive": "A drawer overflowing with socks",
+      "type": "negation_pair",
+      "key_diff": ["free of <-> overflowing with"]
+    },
+    {
+      "negative": "The beach devoid of seashells",
+      "positive": "The beach scattered with colorful seashells",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> scattered with"]
+    },
+    {
+      "negative": "A hamburger excluding pickles",
+      "positive": "A hamburger including crunchy pickles",
+      "type": "negation_pair",
+      "key_diff": ["excluding <-> including"]
+    },
+    {
+      "negative": "The sky clear of clouds",
+      "positive": "The sky dotted with fluffy clouds",
+      "type": "negation_pair",
+      "key_diff": ["clear of <-> dotted with"]
+    },
+    {
+      "negative": "A bowl without cereal",
+      "positive": "A bowl filled with cereal",
+      "type": "negation_pair",
+      "key_diff": ["without <-> filled with"]
+    },
+    {
+      "negative": "The zoo enclosure empty of pandas",
+      "positive": "The zoo enclosure home to playful pandas",
+      "type": "negation_pair",
+      "key_diff": ["empty of <-> home to"]
+    },
+    {
+      "negative": "A desk lacking office supplies",
+      "positive": "A desk organized with office supplies",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> organized with"]
+    },
+    {
+      "negative": "The forest trail without hikers",
+      "positive": "The forest trail frequented by hikers",
+      "type": "negation_pair",
+      "key_diff": ["without <-> frequented by"]
+    },
+    {
+      "negative": "A plate devoid of cookies",
+      "positive": "A plate stacked with cookies",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> stacked with"]
+    },
+    {
+      "negative": "The garage free of tools",
+      "positive": "The garage cluttered with tools",
+      "type": "negation_pair",
+      "key_diff": ["free of <-> cluttered with"]
+    },
+    {
+      "negative": "A salad minus the croutons",
+      "positive": "A salad topped with golden croutons",
+      "type": "negation_pair",
+      "key_diff": ["minus <-> topped with"]
+    },
+    {
+      "negative": "The river lacking fish",
+      "positive": "The river teeming with fish",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> teeming with"]
+    },
+    {
+      "negative": "A mailbox without letters",
+      "positive": "A mailbox stuffed with letters",
+      "type": "negation_pair",
+      "key_diff": ["without <-> stuffed with"]
+    },
+    {
+      "negative": "The museum gallery void of paintings",
+      "positive": "The museum gallery displaying numerous paintings",
+      "type": "negation_pair",
+      "key_diff": ["void of <-> displaying"]
+    },
+    {
+      "negative": "A hotdog missing the ketchup",
+      "positive": "A hotdog dripping with ketchup",
+      "type": "negation_pair",
+      "key_diff": ["missing <-> dripping with"]
+    },
+    {
+      "negative": "The classroom minus students",
+      "positive": "The classroom packed with students",
+      "type": "negation_pair",
+      "key_diff": ["minus <-> packed with"]
+    },
+    {
+      "negative": "A bookshelf without any photo albums",
+      "positive": "A bookshelf containing several photo albums",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> containing several"]
+    },
+    {
+      "negative": "The highway lacking traffic signs",
+      "positive": "The highway lined with traffic signs",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> lined with"]
+    },
+    {
+      "negative": "A pizza absent of mushrooms",
+      "positive": "A pizza loaded with mushrooms",
+      "type": "negation_pair",
+      "key_diff": ["absent of <-> loaded with"]
+    },
+    {
+      "negative": "The park bench unoccupied by people",
+      "positive": "The park bench occupied by chatting people",
+      "type": "negation_pair",
+      "key_diff": ["unoccupied by <-> occupied by"]
+    },
+    {
+      "negative": "A glass missing its straw",
+      "positive": "A glass equipped with a striped straw",
+      "type": "negation_pair",
+      "key_diff": ["missing its <-> equipped with"]
+    },
+    {
+      "negative": "The toy box empty of dolls",
+      "positive": "The toy box filled with dolls",
+      "type": "negation_pair",
+      "key_diff": ["empty of <-> filled with"]
+    },
+    {
+      "negative": "A hamburger excluding onions",
+      "positive": "A hamburger layered with onions",
+      "type": "negation_pair",
+      "key_diff": ["excluding <-> layered with"]
+    },
+    {
+      "negative": "The bookshelf without any cookbooks",
+      "positive": "The bookshelf holding numerous cookbooks",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> holding numerous"]
+    },
+    {
+      "negative": "A beach towel lacking sand",
+      "positive": "A beach towel covered in sand",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> covered in"]
+    },
+    {
+      "negative": "The refrigerator free of leftovers",
+      "positive": "The refrigerator stocked with leftovers",
+      "type": "negation_pair",
+      "key_diff": ["free of <-> stocked with"]
+    },
+    {
+      "negative": "A pizza without any basil leaves",
+      "positive": "A pizza garnished with fresh basil leaves",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> garnished with"]
+    },
+    {
+      "negative": "The parking lot devoid of motorcycles",
+      "positive": "The parking lot packed with motorcycles",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> packed with"]
+    },
+    {
+      "negative": "A desk minus the computer",
+      "positive": "A desk supporting a computer",
+      "type": "negation_pair",
+      "key_diff": ["minus <-> supporting"]
+    },
+    {
+      "negative": "The garden without any rose bushes",
+      "positive": "The garden featuring rose bushes",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> featuring"]
+    },
+    {
+      "negative": "A bowl absent of fruit",
+      "positive": "A bowl overflowing with fruit",
+      "type": "negation_pair",
+      "key_diff": ["absent of <-> overflowing with"]
+    },
+    {
+      "negative": "The bookshelf missing encyclopedias",
+      "positive": "The bookshelf containing encyclopedias",
+      "type": "negation_pair",
+      "key_diff": ["missing <-> containing"]
+    },
+    {
+      "negative": "A hotdog lacking mustard",
+      "positive": "A hotdog smeared with mustard",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> smeared with"]
+    },
+    {
+      "negative": "The classroom not having any chalk",
+      "positive": "The classroom supplied with chalk",
+      "type": "negation_pair",
+      "key_diff": ["not having any <-> supplied with"]
+    },
+    {
+      "negative": "A wallet without any cash",
+      "positive": "A wallet stuffed with cash",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> stuffed with"]
+    },
+    {
+      "negative": "The tree branch without leaves",
+      "positive": "The tree branch covered in leaves",
+      "type": "negation_pair",
+      "key_diff": ["without <-> covered in"]
+    },
+    {
+      "negative": "A phone devoid of apps",
+      "positive": "A phone loaded with apps",
+      "type": "negation_pair",
+      "key_diff": ["devoid of <-> loaded with"]
+    },
+    {
+      "negative": "The museum exhibit not containing fossils",
+      "positive": "The museum exhibit displaying fossils",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> displaying"]
+    },
+    {
+      "negative": "A sandwich excluding lettuce",
+      "positive": "A sandwich including crisp lettuce",
+      "type": "negation_pair",
+      "key_diff": ["excluding <-> including"]
+    },
+    {
+      "negative": "The highway free of accidents",
+      "positive": "The highway plagued by accidents",
+      "type": "negation_pair",
+      "key_diff": ["free of <-> plagued by"]
+    },
+    {
+      "negative": "A toolbox without screwdrivers",
+      "positive": "A toolbox containing screwdrivers",
+      "type": "negation_pair",
+      "key_diff": ["without <-> containing"]
+    },
+    {
+      "negative": "The nest without eggs",
+      "positive": "The nest containing eggs",
+      "type": "negation_pair",
+      "key_diff": ["without <-> containing"]
+    },
+    {
+      "negative": "A glass lacking ice cubes",
+      "positive": "A glass filled with ice cubes",
+      "type": "negation_pair",
+      "key_diff": ["lacking <-> filled with"]
+    },
+    {
+      "negative": "The bookshelf not holding any magazines",
+      "positive": "The bookshelf stacked with magazines",
+      "type": "negation_pair",
+      "key_diff": ["not holding any <-> stacked with"]
+    },
+    {
+      "negative": "A shirt without pockets",
+      "positive": "A shirt featuring pockets",
+      "type": "negation_pair",
+      "key_diff": ["without <-> featuring"]
+    },
+    {
+      "negative": "The playground not having swings",
+      "positive": "The playground equipped with swings",
+      "type": "negation_pair",
+      "key_diff": ["not having <-> equipped with"]
+    },
+    {
+      "negative": "A pizza excluding olives",
+      "positive": "A pizza decorated with olives",
+      "type": "negation_pair",
+      "key_diff": ["excluding <-> decorated with"]
+    },
+    {
+      "negative": "The concert hall silent without applause",
+      "positive": "The concert hall echoing with applause",
+      "type": "negation_pair",
+      "key_diff": ["silent without <-> echoing with"]
+    },
+    {
+      "negative": "A drawer empty of underwear",
+      "positive": "A drawer full of underwear",
+      "type": "negation_pair",
+      "key_diff": ["empty of <-> full of"]
+    },
+    {
+      "negative": "The beach without any seaweed",
+      "positive": "The beach covered in seaweed",
+      "type": "negation_pair",
+      "key_diff": ["without any <-> covered in"]
+    },
+    {
+      "negative": "A hamburger not including cheese",
+      "positive": "A hamburger including melted cheese",
+      "type": "negation_pair",
+      "key_diff": ["not including <-> including"]
+    },
+    {
+      "negative": "The sky without stars",
+      "positive": "The sky twinkling with stars",
+      "type": "negation_pair",
+      "key_diff": ["without <-> twinkling with"]
+    },
+    {
+      "negative": "A bowl not containing soup",
+      "positive": "A bowl filled with soup",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> filled with"]
+    },
+    {
+      "negative": "The zoo enclosure without elephants",
+      "positive": "The zoo enclosure housing elephants",
+      "type": "negation_pair",
+      "key_diff": ["without <-> housing"]
+    },
+    {
+      "negative": "A desk not holding papers",
+      "positive": "A desk piled with papers",
+      "type": "negation_pair",
+      "key_diff": ["not holding <-> piled with"]
+    },
+    {
+      "negative": "The forest trail without footprints",
+      "positive": "The forest trail marked by footprints",
+      "type": "negation_pair",
+      "key_diff": ["without <-> marked by"]
+    },
+    {
+      "negative": "A plate not bearing any cake",
+      "positive": "A plate holding a slice of cake",
+      "type": "negation_pair",
+      "key_diff": ["not bearing any <-> holding"]
+    },
+    {
+      "negative": "The garage not storing bicycles",
+      "positive": "The garage storing bicycles",
+      "type": "negation_pair",
+      "key_diff": ["not storing <-> storing"]
+    },
+    {
+      "negative": "A salad not having dressing",
+      "positive": "A salad drizzled with dressing",
+      "type": "negation_pair",
+      "key_diff": ["not having <-> drizzled with"]
+    },
+    {
+      "negative": "The river not containing trout",
+      "positive": "The river populated by trout",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> populated by"]
+    },
+    {
+      "negative": "A mailbox not holding packages",
+      "positive": "A mailbox receiving packages",
+      "type": "negation_pair",
+      "key_diff": ["not holding <-> receiving"]
+    },
+    {
+      "negative": "The museum gallery not exhibiting sculptures",
+      "positive": "The museum gallery exhibiting sculptures",
+      "type": "negation_pair",
+      "key_diff": ["not exhibiting <-> exhibiting"]
+    },
+    {
+      "negative": "A hotdog not topped with relish",
+      "positive": "A hotdog topped with relish",
+      "type": "negation_pair",
+      "key_diff": ["not topped with <-> topped with"]
+    },
+    {
+      "negative": "The classroom not containing desks",
+      "positive": "The classroom arranged with desks",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> arranged with"]
+    },
+    {
+      "negative": "A bookshelf not displaying trophies",
+      "positive": "A bookshelf displaying trophies",
+      "type": "negation_pair",
+      "key_diff": ["not displaying <-> displaying"]
+    },
+    {
+      "negative": "The highway not having exit ramps",
+      "positive": "The highway having exit ramps",
+      "type": "negation_pair",
+      "key_diff": ["not having <-> having"]
+    },
+    {
+      "negative": "A pizza not featuring sausage",
+      "positive": "A pizza featuring sausage",
+      "type": "negation_pair",
+      "key_diff": ["not featuring <-> featuring"]
+    },
+    {
+      "negative": "The park bench not accommodating anyone",
+      "positive": "The park bench accommodating people",
+      "type": "negation_pair",
+      "key_diff": ["not accommodating <-> accommodating"]
+    },
+    {
+      "negative": "A glass not holding lemonade",
+      "positive": "A glass holding lemonade",
+      "type": "negation_pair",
+      "key_diff": ["not holding <-> holding"]
+    },
+    {
+      "negative": "The toy box not containing action figures",
+      "positive": "The toy box containing action figures",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> containing"]
+    },
+    {
+      "negative": "A hamburger not including tomatoes",
+      "positive": "A hamburger including tomatoes",
+      "type": "negation_pair",
+      "key_diff": ["not including <-> including"]
+    },
+    {
+      "negative": "The bookshelf not supporting plants",
+      "positive": "The bookshelf supporting plants",
+      "type": "negation_pair",
+      "key_diff": ["not supporting <-> supporting"]
+    },
+    {
+      "negative": "A beach towel not collecting sand",
+      "positive": "A beach towel collecting sand",
+      "type": "negation_pair",
+      "key_diff": ["not collecting <-> collecting"]
+    },
+    {
+      "negative": "The refrigerator not preserving milk",
+      "positive": "The refrigerator preserving milk",
+      "type": "negation_pair",
+      "key_diff": ["not preserving <-> preserving"]
+    },
+    {
+      "negative": "A pizza not decorated with peppers",
+      "positive": "A pizza decorated with peppers",
+      "type": "negation_pair",
+      "key_diff": ["not decorated with <-> decorated with"]
+    },
+    {
+      "negative": "The parking lot not accommodating trucks",
+      "positive": "The parking lot accommodating trucks",
+      "type": "negation_pair",
+      "key_diff": ["not accommodating <-> accommodating"]
+    },
+    {
+      "negative": "A desk not supporting monitors",
+      "positive": "A desk supporting monitors",
+      "type": "negation_pair",
+      "key_diff": ["not supporting <-> supporting"]
+    },
+    {
+      "negative": "The garden not growing tulips",
+      "positive": "The garden growing tulips",
+      "type": "negation_pair",
+      "key_diff": ["not growing <-> growing"]
+    },
+    {
+      "negative": "A bowl not carrying berries",
+      "positive": "A bowl carrying berries",
+      "type": "negation_pair",
+      "key_diff": ["not carrying <-> carrying"]
+    },
+    {
+      "negative": "The bookshelf not housing DVDs",
+      "positive": "The bookshelf housing DVDs",
+      "type": "negation_pair",
+      "key_diff": ["not housing <-> housing"]
+    },
+    {
+      "negative": "A hotdog not garnished with onions",
+      "positive": "A hotdog garnished with onions",
+      "type": "negation_pair",
+      "key_diff": ["not garnished with <-> garnished with"]
+    },
+    {
+      "negative": "The classroom not utilizing projectors",
+      "positive": "The classroom utilizing projectors",
+      "type": "negation_pair",
+      "key_diff": ["not utilizing <-> utilizing"]
+    },
+    {
+      "negative": "A wallet not securing coins",
+      "positive": "A wallet securing coins",
+      "type": "negation_pair",
+      "key_diff": ["not securing <-> securing"]
+    },
+    {
+      "negative": "The tree branch not supporting nests",
+      "positive": "The tree branch supporting nests",
+      "type": "negation_pair",
+      "key_diff": ["not supporting <-> supporting"]
+    },
+    {
+      "negative": "A phone not running games",
+      "positive": "A phone running games",
+      "type": "negation_pair",
+      "key_diff": ["not running <-> running"]
+    },
+    {
+      "negative": "The museum exhibit not showcasing jewelry",
+      "positive": "The museum exhibit showcasing jewelry",
+      "type": "negation_pair",
+      "key_diff": ["not showcasing <-> showcasing"]
+    },
+    {
+      "negative": "A sandwich not layered with ham",
+      "positive": "A sandwich layered with ham",
+      "type": "negation_pair",
+      "key_diff": ["not layered with <-> layered with"]
+    },
+    {
+      "negative": "The highway not experiencing traffic",
+      "positive": "The highway experiencing traffic",
+      "type": "negation_pair",
+      "key_diff": ["not experiencing <-> experiencing"]
+    },
+    {
+      "negative": "A toolbox not organizing nails",
+      "positive": "A toolbox organizing nails",
+      "type": "negation_pair",
+      "key_diff": ["not organizing <-> organizing"]
+    },
+    {
+      "negative": "The nest not sheltering chicks",
+      "positive": "The nest sheltering chicks",
+      "type": "negation_pair",
+      "key_diff": ["not sheltering <-> sheltering"]
+    },
+    {
+      "negative": "A glass not chilling soda",
+      "positive": "A glass chilling soda",
+      "type": "negation_pair",
+      "key_diff": ["not chilling <-> chilling"]
+    },
+    {
+      "negative": "The bookshelf not displaying yearbooks",
+      "positive": "The bookshelf displaying yearbooks",
+      "type": "negation_pair",
+      "key_diff": ["not displaying <-> displaying"]
+    },
+    {
+      "negative": "A shirt not having cuffs",
+      "positive": "A shirt having cuffs",
+      "type": "negation_pair",
+      "key_diff": ["not having <-> having"]
+    },
+    {
+      "negative": "The playground not containing slides",
+      "positive": "The playground containing slides",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> containing"]
+    },
+    {
+      "negative": "A pizza not sprinkled with oregano",
+      "positive": "A pizza sprinkled with oregano",
+      "type": "negation_pair",
+      "key_diff": ["not sprinkled with <-> sprinkled with"]
+    },
+    {
+      "negative": "The concert hall not hosting orchestras",
+      "positive": "The concert hall hosting orchestras",
+      "type": "negation_pair",
+      "key_diff": ["not hosting <-> hosting"]
+    },
+    {
+      "negative": "A drawer not storing socks",
+      "positive": "A drawer storing socks",
+      "type": "negation_pair",
+      "key_diff": ["not storing <-> storing"]
+    },
+    {
+      "negative": "The beach not attracting surfers",
+      "positive": "The beach attracting surfers",
+      "type": "negation_pair",
+      "key_diff": ["not attracting <-> attracting"]
+    },
+    {
+      "negative": "A hamburger not served with fries",
+      "positive": "A hamburger served with fries",
+      "type": "negation_pair",
+      "key_diff": ["not served with <-> served with"]
+    },
+    {
+      "negative": "The sky not showing rainbows",
+      "positive": "The sky showing rainbows",
+      "type": "negation_pair",
+      "key_diff": ["not showing <-> showing"]
+    },
+    {
+      "negative": "A bowl not offering cereal",
+      "positive": "A bowl offering cereal",
+      "type": "negation_pair",
+      "key_diff": ["not offering <-> offering"]
+    },
+    {
+      "negative": "The zoo enclosure not keeping lions",
+      "positive": "The zoo enclosure keeping lions",
+      "type": "negation_pair",
+      "key_diff": ["not keeping <-> keeping"]
+    },
+    {
+      "negative": "A desk not holding laptops",
+      "positive": "A desk holding laptops",
+      "type": "negation_pair",
+      "key_diff": ["not holding <-> holding"]
+    },
+    {
+      "negative": "The forest trail not winding uphill",
+      "positive": "The forest trail winding uphill",
+      "type": "negation_pair",
+      "key_diff": ["not winding <-> winding"]
+    },
+    {
+      "negative": "A plate not presenting pasta",
+      "positive": "A plate presenting pasta",
+      "type": "negation_pair",
+      "key_diff": ["not presenting <-> presenting"]
+    },
+    {
+      "negative": "The garage not parking cars",
+      "positive": "The garage parking cars",
+      "type": "negation_pair",
+      "key_diff": ["not parking <-> parking"]
+    },
+    {
+      "negative": "A salad not tossed with croutons",
+      "positive": "A salad tossed with croutons",
+      "type": "negation_pair",
+      "key_diff": ["not tossed with <-> tossed with"]
+    },
+    {
+      "negative": "The river not flowing swiftly",
+      "positive": "The river flowing swiftly",
+      "type": "negation_pair",
+      "key_diff": ["not flowing <-> flowing"]
+    },
+    {
+      "negative": "A mailbox not accepting parcels",
+      "positive": "A mailbox accepting parcels",
+      "type": "negation_pair",
+      "key_diff": ["not accepting <-> accepting"]
+    },
+    {
+      "negative": "The museum gallery not hanging portraits",
+      "positive": "The museum gallery hanging portraits",
+      "type": "negation_pair",
+      "key_diff": ["not hanging <-> hanging"]
+    },
+    {
+      "negative": "A hotdog not wrapped in foil",
+      "positive": "A hotdog wrapped in foil",
+      "type": "negation_pair",
+      "key_diff": ["not wrapped in <-> wrapped in"]
+    },
+    {
+      "negative": "The classroom not using whiteboards",
+      "positive": "The classroom using whiteboards",
+      "type": "negation_pair",
+      "key_diff": ["not using <-> using"]
+    },
+    {
+      "negative": "A bookshelf not storing encyclopedias",
+      "positive": "A bookshelf storing encyclopedias",
+      "type": "negation_pair",
+      "key_diff": ["not storing <-> storing"]
+    },
+    {
+      "negative": "The highway not crossing bridges",
+      "positive": "The highway crossing bridges",
+      "type": "negation_pair",
+      "key_diff": ["not crossing <-> crossing"]
+    },
+    {
+      "negative": "A pizza not baked with anchovies",
+      "positive": "A pizza baked with anchovies",
+      "type": "negation_pair",
+      "key_diff": ["not baked with <-> baked with"]
+    },
+    {
+      "negative": "The park bench not facing the fountain",
+      "positive": "The park bench facing the fountain",
+      "type": "negation_pair",
+      "key_diff": ["not facing <-> facing"]
+    },
+    {
+      "negative": "A glass not containing juice",
+      "positive": "A glass containing juice",
+      "type": "negation_pair",
+      "key_diff": ["not containing <-> containing"]
+    },
+    {
+      "negative": "The toy box not holding stuffed animals",
+      "positive": "The toy box holding stuffed animals",
+      "type": "negation_pair",
+      "key_diff": ["not holding <-> holding"]
+    },
+    {
+      "negative": "A hamburger not stacked with pickles",
+      "positive": "A hamburger stacked with pickles",
+      "type": "negation_pair",
+      "key_diff": ["not stacked with <-> stacked with"]
+    },
+    {
+      "negative": "The bookshelf not displaying photo frames",
+      "positive": "The bookshelf displaying photo frames",
+      "type": "negation_pair",
+      "key_diff": ["not displaying <-> displaying"]
+    },
+    {
+      "negative": "A beach towel not drying in the sun",
+      "positive": "A beach towel drying in the sun",
+      "type": "negation_pair",
+      "key_diff": ["not drying <-> drying"]
+    },
+    {
+      "negative": "The refrigerator not cooling beverages",
+      "positive": "The refrigerator cooling beverages",
+      "type": "negation_pair",
+      "key_diff": ["not cooling <-> cooling"]
+    },
+    {
+      "negative": "A pizza not covered with cheese",
+      "positive": "A pizza covered with cheese",
+      "type": "negation_pair",
+      "key_diff": ["not covered with <-> covered with"]
+    },
+    {
+      "negative": "The parking lot not reserving spaces",
+      "positive": "The parking lot reserving spaces",
+      "type": "negation_pair",
+      "key_diff": ["not reserving <-> reserving"]
+    },
+    {
+      "negative": "A desk not supporting printers",
+      "positive": "A desk supporting printers",
+      "type": "negation_pair",
+      "key_diff": ["not supporting <-> supporting"]
+    },
+    {
+      "negative": "The garden not blooming with daisies",
+      "positive": "The garden blooming with daisies",
+      "type": "negation_pair",
+      "key_diff": ["not blooming with <-> blooming with"]
+    },
+    {
+      "negative": "A bowl not mixing ingredients",
+      "positive": "A bowl mixing ingredients",
+      "type": "negation_pair",
+      "key_diff": ["not mixing <-> mixing"]
+    },
+    {
+      "negative": "The bookshelf not categorizing books",
+      "positive": "The bookshelf categorizing books",
+      "type": "negation_pair",
+      "key_diff": ["not categorizing <-> categorizing"]
+    },
+    {
+      "negative": "A hotdog not served in buns",
+      "positive": "A hotdog served in buns",
+      "type": "negation_pair",
+      "key_diff": ["not served in <-> served in"]
+    },
+    {
+      "negative": "The classroom not assigning homework",
+      "positive": "The classroom assigning homework",
+      "type": "negation_pair",
+      "key_diff": ["not assigning <-> assigning"]
+    },
+    {
+      "negative": "A wallet not carrying photos",
+      "positive": "A wallet carrying photos",
+      "type": "negation_pair",
+      "key_diff": ["not carrying <-> carrying"]
+    },
+    {
+      "negative": "The tree branch not shading the ground",
+      "positive": "The tree branch shading the ground",
+      "type": "negation_pair",
+      "key_diff": ["not shading <-> shading"]
+    },
+    {
+      "negative": "A phone not receiving calls",
+      "positive": "A phone receiving calls",
+      "type": "negation_pair",
+      "key_diff": ["not receiving <-> receiving"]
+    },
+    {
+      "negative": "The museum exhibit not explaining history",
+      "positive": "The museum exhibit explaining history",
+      "type": "negation_pair",
+      "key_diff": ["not explaining <-> explaining"]
+    },
+    {
+      "negative": "A sandwich not cut in halves",
+      "positive": "A sandwich cut in halves",
+      "type": "negation_pair",
+      "key_diff": ["not cut in <-> cut in"]
+    },
+    {
+      "negative": "The highway not connecting cities",
+      "positive": "The highway connecting cities",
+      "type": "negation_pair",
+      "key_diff": ["not connecting <-> connecting"]
+    },
+    {
+      "negative": "A toolbox not repairing items",
+      "positive": "A toolbox repairing items",
+      "type": "negation_pair",
+      "key_diff": ["not repairing <-> repairing"]
+    },
+    {
+      "negative": "The nest not woven tightly",
+      "positive": "The nest woven tightly",
+      "type": "negation_pair",
+      "key_diff": ["not woven <-> woven"]
+    },
+    {
+      "negative": "A glass not reflecting light",
+      "positive": "A glass reflecting light",
+      "type": "negation_pair",
+      "key_diff": ["not reflecting <-> reflecting"]
+    },
+    {
+      "negative": "The bookshelf not alphabetizing titles",
+      "positive": "The bookshelf alphabetizing titles",
+      "type": "negation_pair",
+      "key_diff": ["not alphabetizing <-> alphabetizing"]
+    },
+    {
+      "negative": "A shirt not buttoned up",
+      "positive": "A shirt buttoned up",
+      "type": "negation_pair",
+      "key_diff": ["not buttoned <-> buttoned"]
+    },
+    {
+      "negative": "The playground not encouraging play",
+      "positive": "The playground encouraging play",
+      "type": "negation_pair",
+      "key_diff": ["not encouraging <-> encouraging"]
+    },
+    {
+      "negative": "A pizza not sliced evenly",
+      "positive": "A pizza sliced evenly",
+      "type": "negation_pair",
+      "key_diff": ["not sliced <-> sliced"]
+    },
+    {
+      "negative": "The concert hall not amplifying sound",
+      "positive": "The concert hall amplifying sound",
+      "type": "negation_pair",
+      "key_diff": ["not amplifying <-> amplifying"]
+    }
+]
+}

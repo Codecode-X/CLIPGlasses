@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+<<<<<<< HEAD
+*.pth
+*.pt
+.cache/
+output/
+PN.csv
+.ipynb_checkpoints/
+=======
+.cache/
+.output/
+>>>>>>> 36fe5ca084dec516a944809acf4c7c0af6f81894

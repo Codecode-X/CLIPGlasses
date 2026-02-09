@@ -1,0 +1,118 @@
+# X-Trainer Configuration File Template
+# Version: 1.0 | Author: Junhao Xiao | Project URL: https://github.com/Codecode-X/X-Trainer
+
+# ======================= Global Configuration =======================
+VERBOSE: True  # Enable detailed logging (e.g., training progress, metrics, etc.)
+SEED: 42  # Global random seed to ensure experiment reproducibility
+USE_CUDA: True  # Automatically detect and use available GPU for acceleration
+OUTPUT_DIR: "./output"  # Output directory (stores logs/models/evaluation results)
+RESUME: ""  # Path for resuming training (must include `checkpoint.pth` file)
+
+# ===================== Training Engine Configuration =====================
+TRAINER:
+  NAME: "TrainerCoOpCLIP"  # Trainer class name
+  PREC: "fp32"  # Training precision: fp32, fp16, amp (automatic mixed precision)
+  FROZEN: False  # Freeze text encoder
+
+# Training process
+TRAIN:
+  DO_EVAL: True  # Validate the model after each epoch (save the best model)
+  NO_TEST: False  # Skip the testing phase after training
+  CHECKPOINT_FREQ: 5  # Model saving frequency (unit: epoch)
+  PRINT_FREQ: 5  # Training log print interval (unit: batch)
+  MAX_EPOCH: 50  # Maximum number of training epochs
+
+# Testing process
+TEST:
+  FINAL_MODEL: "best_val"  # Model selection for testing (best_val or last_step)
+  SPLIT: "test"  # Dataset split for testing (val or test)
+
+# ===================== Data Management Configuration ===================== 
+# Dataset
+DATASET:
+  NAME: "Caltech101"  # Dataset class name
+  DATASET_DIR: "/root/autodl-tmp/caltech-101"  # Dataset root directory
+  SPLIT: [0.7, 0.1, 0.2]  # Train/validation/test split ratio
+  NUM_SHOTS: -1  # Number of samples per class: -1=full, 0=zero-shot, ≥1=few-shot learning
+  IMAGE_DIR: "/root/autodl-tmp/caltech-101/101_ObjectCategories"  # Image directory - basic configuration for classification datasets
+
+# Data loading
+DATALOADER:
+  BATCH_SIZE_TRAIN: 32  # Training batch size
+  BATCH_SIZE_TEST: 100  # Testing batch size
+  NUM_WORKERS: 4  # Number of parallel data loading processes (recommended=CPU cores)
+  K_TRANSFORMS: 1  # Number of times each augmentation is applied to the original image (horizontally)
+  RETURN_IMG0: False  # Whether to return the original unaugmented image (for visualization or contrastive learning)
+
+# Data sampling
+SAMPLER:
+  TRAIN_SP: "RandomSampler" # Training set sampler class name (random sampling)
+  TEST_SP: "SequentialSampler" # Testing set sampler class name (sequential sampling)
+
+# Image augmentation
+INPUT:
+  # Input image size, must be compatible with the model
+  SIZE: 224
+
+  # Image scaling interpolation method, options: NEAREST, BILINEAR, BICUBIC
+  INTERPOLATION: "BICUBIC"
+
+  # List of augmentation methods applied before converting to tensor
+  BEFORE_TOTENSOR_TRANSFORMS: ["StandardNoAugTransform"]
+
+  # List of augmentation methods applied after converting to tensor
+  AFTER_TOTENSOR_TRANSFORMS: []
+
+  # Specific model augmentation strategy
+  StandardNoAugTransform: None # Standard no-augmentation transformer
+
+  # Whether to normalize the image at the end
+  NORMALIZE: True  # Whether to normalize the image
+  PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]  # Image mean
+  PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]  # Image standard deviation
+
+# ===================== Model Configuration =====================
+MODEL:
+  NAME: "CoOpClip"  # Model class name
+  
+  # Specific Clip model configuration
+  pretrained: "ViT-B/16"  # Pretrained model name (e.g., ViT-B/16)
+  download_root: "~/.cache/clip"  # Pretrained model download directory
+  init_ctx: "a photo of a" # Context prompt (used for CoOp)
+
+# ===================== Learning Rate Strategy Configuration =====================
+
+# Learning rate scheduler
+LR_SCHEDULER:
+  NAME: "CosineLrScheduler" # Learning rate scheduler class name
+
+  # Learning rate warmup
+  WARMUP:
+    NAME: "ConstantWarmupScheduler" # Warmup scheduler class name
+    WARMUP_RECOUNT: True # Whether to reset the cycle after warmup ends
+    EPOCHS: 1 # Number of warmup epochs
+    CONS_LR: 1e-5 # Constant learning rate
+
+
+# ===================== Evaluator Configuration =====================
+EVALUATOR:
+  NAME: "EvaluatorClassification"  # Evaluator type, suitable for classification tasks
+  per_class: True  # Whether to evaluate results for each class
+  calc_cmat: True  # Whether to calculate the confusion matrix
+
+
+
+# ===================== Optimizer Configuration =====================
+OPTIMIZER:
+  NAME: "SGD"  # Optimizer class name
+  LR: 0.002  # Learning rate
+
+  # Parameters specific to the SGD optimizer
+  momentum: 0.9  # Momentum
+  weight_decay: 0.0005  # Weight decay (L2 regularization)
+  dampening: 0.0  # Damping
+  nesterov: False  # Whether to use Nesterov momentum
+
+
+# ===================== Instructions ========================
+# Complete configuration documentation: https://github.com/Codecode-X/X-Trainer/wiki
